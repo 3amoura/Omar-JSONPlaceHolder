@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/posts_fragment">
+
+    <fragment
+        android:id="@+id/posts_fragment"
+        android:name="com.omar.jsonplaceholder_android.fragments.posts.PostsFragment"
+        android:label="Posts">
+        <action
+            android:id="@+id/posts_post_action"
+            app:destination="@id/post_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/post_fragment"
+        android:name="com.omar.jsonplaceholder_android.fragments.post.PostFragment">
+    </fragment>
+</navigation>

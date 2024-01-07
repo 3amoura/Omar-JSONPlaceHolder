@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JSONPlaceholder_Android</string>
+    <string name="items">Items</string>
+    <string name="no_items">No Items</string>
+    <string name="no_internet">No Internet</string>
+
+    <string name="user_id">User Id:</string>
+    <string name="post_id">Post Id:</string>
+    <string name="post_title">Post Title:</string>
+    <string name="post_body">Post Body:</string>
+</resources>
